@@ -8,7 +8,7 @@
  * Status: verified | personal | tentative | estimate | check
  */
 window.DEADLINE_DATA = {
-  updated: '2026-10-27',
+  updated: '2026-10-28',
   period: ['2026-10-01','2027-01-31'],
   events: [
     {id:'sjf-conflict',date:'2026-10-27',title:'Check Swiss Youth in Science deadline discrepancy',category:'Project',priority:'critical',status:'check',time:'Today',notes:'Two official language versions conflict: English says Oct 27; German competition portal says Oct 31. Verify directly before relying on the later date.',url:'https://events-de.sjf.ch/events/NW27/'},
@@ -49,7 +49,7 @@ window.DEADLINE_DATA = {
     {id:'mit-ra',date:'2027-01-04',title:'MIT · Regular Action due',category:'University',priority:'critical',status:'verified',notes:'MIT uses its own admissions portal, not the Common App. Only if applying.',url:'https://mitadmissions.org/apply/firstyear/deadlines-requirements/'},
     {id:'penn-rd',date:'2027-01-05',title:'Penn / Wharton · Regular Decision due',category:'University',priority:'critical',status:'verified',notes:'Applies if applying to Wharton through Penn.',url:'https://admissions.upenn.edu/how-to-apply/first-year-applicants'},
     {id:'stanford-rd',date:'2027-01-05',title:'Stanford · Regular Decision due',category:'University',priority:'critical',status:'verified',notes:'Standard application route; optional arts portfolio uses an earlier deadline.',url:'https://admission.stanford.edu/apply/first-year/'},
-    {id:'tmua-window-close',date:'2027-01-08',title:'January TMUA · test window ends',category:'Exam',priority:'critical',status:'verified',notes:'Latest possible test date in main window. Book an actual appointment and replace the placeholder with your exact time.',url:'https://esat-tmua.ac.uk/deadlines/'},
+    {id:'tmua-window-close',date:'2027-01-08',title:'TMUA · planned exam sitting',category:'Exam',priority:'critical',status:'personal',time:'11:00–13:30 · Swiss local time',notes:'Chosen appointment time: 11:00 on Friday 8 January. Test centre about 35 minutes away; aim to arrive by 10:20 and verify the appointment is booked. This is the last day of the January testing window.',url:'https://esat-tmua.ac.uk/deadlines/'},
     {id:'ucas-personal',date:'2027-01-09',title:'UCAS · personal internal submission target',category:'Planning',priority:'high',status:'personal',notes:'Aim to submit Imperial / LSE / Warwick choices before the external Jan 13 deadline.',url:'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications'},
     {id:'ucas-final',date:'2027-01-13',title:'UCAS · equal consideration deadline',category:'University',priority:'critical',status:'verified',time:'18:00 UK time',notes:'For most undergraduate courses in 2027 entry; counselor reference must be in place.',url:'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications'},
     {id:'sjf-semifinal',date:'2027-01-16',title:'Swiss Youth in Science · semifinal',category:'Project',priority:'high',status:'verified',notes:'Relevant if selected. Halbfinale Deutschschweiz at HSLU Emmenbrücke; presentation and expert interview.',url:'https://sjf.ch/nationaler-wettbewerb-2027/'},
